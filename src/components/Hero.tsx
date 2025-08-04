@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Prism as SyntexHighLighter } from "react-syntax-highlighter";
+import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -50,6 +52,7 @@ const Hero = () => {
               href="#projects"
               className="btn-primary"
               whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.03 }}
             >
               Veja meus projetos
             </motion.a>
@@ -57,6 +60,7 @@ const Hero = () => {
               href="#contact"
               className="btn-secondary"
               whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.03 }}
             >
               Entre em contato
             </motion.a>
@@ -72,6 +76,53 @@ const Hero = () => {
               <FaLinkedin />
             </motion.a>
           </motion.div>
+        </motion.div>
+        <motion.div
+          className="hero-image"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
+          <div className="code-display">
+            <SyntexHighLighter
+              language="javascript"
+              style={vscDarkPlus}
+              customStyle={{
+                margin: 0,
+                padding: "1rem",
+                borderRadius: "15px",
+                height: "100%",
+                background: "rgba(30, 41, 59, 0.8)",
+                backdropFilter: "blur(10px)",
+              }}
+            >
+              {`const aboutMe: DeveloperProfile = {
+  codename: "Victor",
+  role: "Desenvolvedor Fullstack",
+  stack: {
+    languages: ["JavaScript", "TypeScript", "SQL", "Python"],
+    frameworks: [ 
+     "React",
+     "Next.js", 
+     "Node.js", 
+     "Express", 
+     "Prisma", 
+     "TailwindCSS"
+    ],
+  },
+  caracteristicas: [
+    "entusiasta de arquitetura limpa",
+    "adepto de testes e boas práticas",
+    "fã de dark mode",
+    "explorador de tecnologias open-source",
+    "API integrator nato",
+  ],
+  declaracaoDeMissao:
+    "Transformar ideias em soluções escaláveis e código limpo que dá orgulho de manter",
+  disponibilidade: "Disponível para novos projetos e colaborações"
+};`}
+            </SyntexHighLighter>
+          </div>
         </motion.div>
       </div>
     </motion.section>

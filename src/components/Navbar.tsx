@@ -45,14 +45,14 @@ const Navbar = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a>Projetos</a>
+          <a href="#projects">Projetos</a>
         </motion.li>
         <motion.li
           variants={fadeInUp}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a>Contato</a>
+          <a href="#contact">Contato</a>
         </motion.li>
       </motion.ul>
     </motion.nav>
