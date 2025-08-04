@@ -11,9 +11,9 @@ function App() {
       <Hero />
       <Projects />
       <Contact />
-      <>
+      <div className="footer">
         <p>&copy; 2025 vctrr. All rights reserved.</p>
-      </>
+      </div>
     </>
   );
 }
