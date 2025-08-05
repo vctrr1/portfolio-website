@@ -61,7 +61,7 @@ const Projects = () => {
             Vite, React e tecnologias web atuais. Permite criar, editar e
             compartilhar posts de forma rápida e intuitiva, com uma interface
             responsiva e amigável. Ideal para quem busca praticidade e
-            performance na publicação
+            performance na publicação.
           </p>
           <div className="project-tech">
             <span className="tech">React</span>
@@ -109,12 +109,17 @@ const Projects = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
           />
           <h3>Barbershop</h3>
-          <p></p>
+          <p>
+            Plataforma web para agendamento online em barbearias. Permite que
+            usuários encontrem barbearias, visualizem serviços, realizem
+            reservas e acompanhem seus agendamentos de forma prática e
+            intuitiva. (mobile only).
+          </p>
           <div className="project-tech">
-            <span className="tech">React</span>
+            <span className="tech">Next.js</span>
             <span className="tech">TypeScript</span>
             <span className="tech">TailwindCSS</span>
-            <span className="tech">Supabase</span>
+            <span className="tech">NextAuth</span>
           </div>
         </motion.div>
         {/** card 4*/}
@@ -129,12 +134,17 @@ const Projects = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
           />
           <h3>Delivery Site</h3>
-          <p></p>
+          <p>
+            Plataforma web de pedidos para restaurantes. Permite ao usuário
+            visualizar o cardápio, selecionar produtos, montar pedidos
+            personalizados, acompanhar o status e escolher o método de consumo.
+            Interface moderna e responsiva.
+          </p>
           <div className="project-tech">
-            <span className="tech">React</span>
+            <span className="tech">Next.js</span>
             <span className="tech">TypeScript</span>
             <span className="tech">TailwindCSS</span>
-            <span className="tech">Supabase</span>
+            <span className="tech">Prisma ORM</span>
           </div>
         </motion.div>
         {/** card 5*/}
@@ -149,12 +159,17 @@ const Projects = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
           />
           <h3>Utools</h3>
-          <p></p>
+          <p>
+            uTools (Userful Tools) é uma plataforma web que reúne diversas
+            ferramentas práticas e essenciais para o dia a dia em um só lugar. O
+            projeto foi desenvolvido com foco em simplicidade, produtividade e
+            experiência do usuário, oferecendo uma interface moderna e
+            responsiva.
+          </p>
           <div className="project-tech">
-            <span>React</span>
+            <span>Next.js</span>
             <span>TypeScript</span>
             <span>TailwindCSS</span>
-            <span>Supabase</span>
           </div>
         </motion.div>
       </motion.div>
