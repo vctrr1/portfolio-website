@@ -14,7 +14,6 @@ const staggerContainer = {
   animate: {
     transition: {
       staggerChildren: 0.1,
-      delayChildren: 0.5,
     },
   },
 };

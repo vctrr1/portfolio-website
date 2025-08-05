@@ -13,11 +13,12 @@
   --light-text: #94a3b8; /* Mantido */
   --background: #0f172a; /* Mantido */
   --section-bg: #1e293b; /* Mantido */
-  --card-bg: #1e293b; /* Mantido */
+  --card-bg: rgba(30, 41, 59, 0.8); /* Mantido */
   --gradient-start: #38bdf8;
   --gradient-end: #6366f1;
   --nav-bg: rgba(15, 23, 42, 0.8);
   --card-border: rgba(148, 163, 184, 0.1);
+  --muted-foreground: 215 20.2% 20%;
 }
 
 body {
@@ -214,9 +215,77 @@ body {
   }
 }
 
+/*Projects section*/
+
+.projects {
+  padding: 6rem 5%;
+  background: var(--background);
+  position: relative;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.project-card p {
+  padding: 0rem 1.5rem 1rem;
+  color: rgb(255, 255, 255, 0.6);
+  flex-grow: 1;
+}
+
+.project-tech {
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tech span {
+  gap: 0.3rem 0.8rem;
+  background: rgba(20, 184, 166, 0.2);
+  padding: 0.2rem 0.3rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  border: 1px solid var(--card-border);
+}
+
 .footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   color: var(--light-text);
   position: relative;
   border-top: 1px solid var(--card-border);
