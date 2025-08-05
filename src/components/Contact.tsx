@@ -6,15 +6,6 @@ const fadeInUp = {
   transition: { duration: 0.5 },
 };
 
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.5,
-    },
-  },
-};
-
 const Contact = () => {
   return (
     <motion.section
