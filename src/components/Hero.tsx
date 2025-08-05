@@ -91,6 +91,7 @@ const Hero = () => {
                 margin: 0,
                 padding: "1rem",
                 borderRadius: "15px",
+                border: "1px solid var(--card-border)",
                 height: "100%",
                 background: "rgba(30, 41, 59, 0.8)",
                 backdropFilter: "blur(10px)",
