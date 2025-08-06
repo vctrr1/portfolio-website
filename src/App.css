@@ -89,6 +89,7 @@ body {
   padding: 0 5%;
   position: relative;
   overflow: hidden;
+  background: var(--background);
 }
 
 .hero-container {
@@ -313,7 +314,7 @@ body {
 /* Contact section */
 .contact {
   padding: 6rem 5%;
-
+  background: var(--background);
   position: relative;
 }
 
@@ -403,6 +404,7 @@ body {
 }
 
 .footer {
+  background: var(--background);
   text-align: center;
   padding: 1.5rem 0;
   color: var(--light-text);
