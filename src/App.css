@@ -190,7 +190,15 @@ body {
 .hero-socials a:hover {
   color: var(--accent-color);
 }
+.hero-image {
+  flex: 1;
+  position: relative;
+  max-width: 600px;
+}
 
+.code-display {
+  width: 100%;
+}
 /*Hero media queries*/
 
 @media (max-width: 1024px) {
@@ -199,6 +207,11 @@ body {
     text-align: center;
     gap: 3rem;
     padding-top: 120px;
+  }
+  .hero-image {
+    flex: 1;
+    position: relative;
+    max-width: 800px;
   }
 
   .hero-content {
@@ -212,6 +225,14 @@ body {
 
   .hero-socials {
     justify-content: center;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-image {
+    flex: 1;
+    position: relative;
+    max-width: 800px;
   }
 }
 

@@ -115,7 +115,7 @@ const Hero = () => {
     "API integrator nato",
   ],
   declaracaoDeMissao:
-    "Transformar ideias em soluções escaláveis e código limpo.",
+    "Transformar ideias em soluções escaláveis e código limpo que da orgulho de manter.",
   disponibilidade: "Disponível para novos projetos e colaborações"
 };`}
             </SyntexHighLighter>
