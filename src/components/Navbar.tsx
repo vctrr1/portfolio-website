@@ -24,7 +24,7 @@ const Navbar = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <motion.div className="logo" whileHover={{ scale: 1.05 }}>
-        Meu Portfolio
+        Portfolio
       </motion.div>
 
       <motion.ul
