@@ -4,9 +4,9 @@ Um portfólio moderno, responsivo e animado, desenvolvido com **React**, **TypeS
 
 ## ✨ Funcionalidades
 
-- Animações suaves com [Framer Motion](https://www.framer.com/motion/)
-- Seção de projetos com destaque para tecnologias utilizadas
-- Formulário de contato integrado ao [EmailJS](https://www.emailjs.com/)
+- Animações suaves com [Framer Motion](https://www.framer.com/motion/).
+- Seção de projetos com destaque para tecnologias utilizadas.
+- Formulário de contato integrado ao [EmailJS](https://www.emailjs.com/).
 
 ## 🚀 Tecnologias
 
