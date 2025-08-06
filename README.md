@@ -20,4 +20,4 @@ Um portfólio moderno, responsivo e animado, desenvolvido com **React**, **TypeS
 
 ## 📸 Screenshot
 
-![Screenshot do Portfolio](public/projects/portfolio-screenshot.png)
+![Screenshot do Portfolio](public/portfolio-screenshot.png)
