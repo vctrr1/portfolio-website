@@ -33,17 +33,14 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.div className="hero-badge">
-            <span className="greeting">👋 Olá, eu sou</span>
-          </motion.div>
           <motion.h1 className="hero-title" variants={fadeInUp}>
             Victor Emanoel
           </motion.h1>
           <motion.h2 variants={fadeInUp}>
-            <span className="hero-subtitle">Desenvolvedor Front-end</span>
+            <span className="hero-subtitle">Desenvolvedor Full Stack</span>
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            Sou um desenvolvedor front-end apaixonado por criar experiências
+            Sou um desenvolvedor full stack apaixonado por criar experiências
             digitais incríveis. Vamos construir algo incrível juntos!
           </motion.p>
           <motion.div className="hero-buttons" variants={staggerContainer}>

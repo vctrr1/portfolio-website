@@ -237,6 +237,11 @@ body {
   margin: 0 auto;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .project-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
