@@ -17,7 +17,3 @@ Um portfólio moderno, responsivo e animado, desenvolvido com **React**, **TypeS
 - [EmailJS](https://www.emailjs.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Syntax Highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
-
-## 📸 Screenshot
-
-![Screenshot do Portfolio](public/portfolio-screenshot.png)
